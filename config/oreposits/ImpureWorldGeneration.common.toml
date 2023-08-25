@@ -1,0 +1,37 @@
+
+[ImpureWorldGeneration]
+	#Change the rate of Impure Deposits spawning in the world. [0 to 100]
+	"Impure Rate" = 1.0
+
+[ImpureTypeGeneration]
+	#Use this to setup spawn rate for each deposit found on the surface. How it works is that it totals all the numbers up and makes its own percentage rate with the numbers select. [Ex: Total is 1000 with Iron being 100. Iron has a 10% chance of spawning.] [0 to disable]
+	Bauxite = 30.0
+	Coal = 70.0
+	Copper = 40.0
+	Diamond = 10.0
+	Emerald = 5.0
+	Gold = 30.0
+	Iron = 60.0
+	Lapis = 30.0
+	Lead = 30.0
+	Limestone = 40.0
+	Mythril = 1.0
+	Nickel = 40.0
+	Platinum = 15.0
+	Quartz = 0.0
+	Redstone = 20.0
+	Silver = 30.0
+	Sulfar = 40.0
+	Tin = 50.0
+	Titanium = 15.0
+	Tungsten = 30.0
+	Zinc = 50.0
+
+["Uranium Geode"]
+	spawn = true
+
+["Compatible Mods Deposits"]
+	#From the Mekanism. Mod needs to be installed in order to use this feature
+	"Mekanism - Osmium" = 30.0
+	"Mekanism - Fluorite" = 0.0
+

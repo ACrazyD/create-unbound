@@ -1,0 +1,37 @@
+
+[PureWorldGeneration]
+	#Change the rate of Pure Deposits spawning in the world. [0 to 100]
+	"Pure Rate" = 5.0
+
+[PureTypeGeneration]
+	#Use this to setup spawn rate for each deposit found underground. How it works is that it totals all the numbers up and makes its own percentage rate with the numbers select. [Ex: Total is 1000 with Iron being 100. Iron has a 10% chance of spawning.] [0 to disable]
+	Bauxite = 35.0
+	Coal = 30.0
+	Copper = 20.0
+	Diamond = 30.0
+	Emerald = 15.0
+	Gold = 40.0
+	Iron = 30.0
+	Lapis = 30.0
+	Lead = 20.0
+	Limestone = 20.0
+	Mythril = 2.0
+	Nickel = 15.0
+	Platinum = 40.0
+	Quartz = 0.0
+	Redstone = 40.0
+	Silver = 20.0
+	Sulfar = 40.0
+	Tin = 20.0
+	Titanium = 50.0
+	Tungsten = 45.0
+	Zinc = 30.0
+
+["Uranium Geode"]
+	Spawn = true
+
+["Compatible Mods Deposits"]
+	#From the Mekanism. Mod needs to be installed in order to use this feature
+	"Mekanism - Osmium" = 45.0
+	"Mekanism - Fluorite" = 0.0
+

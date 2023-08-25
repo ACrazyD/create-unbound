@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "suppsquared:block/item_shelves/byg/zelkova"
+    },
+    "facing=east": {
+      "model": "suppsquared:block/item_shelves/byg/zelkova",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "suppsquared:block/item_shelves/byg/zelkova",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "suppsquared:block/item_shelves/byg/zelkova",
+      "y": 270
+    }
+  }
+}

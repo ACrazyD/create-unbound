@@ -1,0 +1,28 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "flag": "item_shelf",
+          "type": "supplementaries:flag"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "000"
+        ],
+        "key": {
+          "0": {
+            "item": "byg:ebony_slab"
+          }
+        },
+        "result": {
+          "item": "suppsquared:byg/item_shelf_ebony",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

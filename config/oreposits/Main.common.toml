@@ -1,0 +1,5 @@
+
+["Furnace Generator"]
+	#Keep true to keep this block. If false, it will remove the recipe from ingame.
+	"Furnace Generator" = true
+

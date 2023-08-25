@@ -1,0 +1,12 @@
+
+[FluidWorldGeneration]
+	#Change the rate of Fluid Deposits spawning in the world. [0 to 100]
+	"Fluid Rate" = 1.0
+
+[FluidTypeGeneration]
+	#Nitrogen
+	"One Branch" = 40.0
+	"Two Branch" = 30.0
+	"Three Branch" = 20.0
+	"Four Branch" = 10.0
+

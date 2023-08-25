@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "suppsquared:block/item_shelves/byg/ebony"
+    },
+    "facing=east": {
+      "model": "suppsquared:block/item_shelves/byg/ebony",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "suppsquared:block/item_shelves/byg/ebony",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "suppsquared:block/item_shelves/byg/ebony",
+      "y": 270
+    }
+  }
+}

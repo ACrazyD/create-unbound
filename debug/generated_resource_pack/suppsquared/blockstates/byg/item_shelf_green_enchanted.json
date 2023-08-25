@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "suppsquared:block/item_shelves/byg/green_enchanted"
+    },
+    "facing=east": {
+      "model": "suppsquared:block/item_shelves/byg/green_enchanted",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "suppsquared:block/item_shelves/byg/green_enchanted",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "suppsquared:block/item_shelves/byg/green_enchanted",
+      "y": 270
+    }
+  }
+}

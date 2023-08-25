@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "suppsquared:block/item_shelves/regions_unexplored/redwood"
+    },
+    "facing=east": {
+      "model": "suppsquared:block/item_shelves/regions_unexplored/redwood",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "suppsquared:block/item_shelves/regions_unexplored/redwood",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "suppsquared:block/item_shelves/regions_unexplored/redwood",
+      "y": 270
+    }
+  }
+}

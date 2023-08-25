@@ -1,0 +1,28 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "flag": "item_shelf",
+          "type": "supplementaries:flag"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "000"
+        ],
+        "key": {
+          "0": {
+            "item": "regions_unexplored:sculkwood_slab"
+          }
+        },
+        "result": {
+          "item": "suppsquared:regions_unexplored/item_shelf_sculkwood",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

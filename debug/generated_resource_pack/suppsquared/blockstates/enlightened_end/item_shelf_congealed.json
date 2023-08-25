@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "suppsquared:block/item_shelves/enlightened_end/congealed"
+    },
+    "facing=east": {
+      "model": "suppsquared:block/item_shelves/enlightened_end/congealed",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "suppsquared:block/item_shelves/enlightened_end/congealed",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "suppsquared:block/item_shelves/enlightened_end/congealed",
+      "y": 270
+    }
+  }
+}

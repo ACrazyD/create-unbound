@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "suppsquared:block/item_shelves/byg/fir"
+    },
+    "facing=east": {
+      "model": "suppsquared:block/item_shelves/byg/fir",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "suppsquared:block/item_shelves/byg/fir",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "suppsquared:block/item_shelves/byg/fir",
+      "y": 270
+    }
+  }
+}
