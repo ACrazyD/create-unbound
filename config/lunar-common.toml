@@ -3,7 +3,7 @@
 [General]
 	#Chance of a Lunar Event happening when night falls [Default: 0.4]
 	#Range: 0.0 ~ 1.0
-	lunarEventChance = 0.4
+	lunarEventChance = 0.03
 
 #Event settings
 [Events]

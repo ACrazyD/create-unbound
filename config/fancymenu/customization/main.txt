@@ -1,0 +1,150 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/assets/bg2.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 345
+  width = 270
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 833a7cd2-4c3a-4415-9817-a4bf5393d2391693427707050
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 7a312b5e-3b5d-4d5b-9de8-9ce3483548541693427707062
+  y = 487
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 730
+  width = 229
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = b226b9b8-9b30-43f6-bc14-126c4d19cb411693427707062
+  y = 509
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = db80b321-db4a-4e6f-942d-3607e28591a31693427707062
+  y = 232
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 29c7a7a7-36c3-4922-8c5a-65039a3c3b741693427707063
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 937203da-7b3b-4fdf-aece-ba2a282108431693427707063
+  y = 0
+  height = 30
+}
+
+customization {
+  path = config/fancymenu/assets/minecraft_title.png
+  orientation = top-centered
+  x = -346
+  width = 693
+  action = addtexture
+  actionid = b504abe8-de43-4a44-8ba6-d4056c94fd2d1693427843624
+  y = 39
+  height = 100
+}
+
+customization {
+  orientation = mid-centered
+  copy_client_player = true
+  slim = false
+  auto_skin = false
+  scale = 60
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/97adcb55a4d403ac81f554749b3c313e612403ad0ad559e6b375d0fc86324b11
+  showname = true
+  crouching = false
+  follow_mouse = true
+  x = -185
+  width = 36
+  parrot_left_shoulder = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 578b5dee-c6ba-46dc-9fdc-5c21201bc10d1693427866125
+  y = -91
+  playername = ACrazyD
+  bodyrotationx = 0.0
+  parrot = false
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 108
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Minecraft Version: 1.19.2%n%Modpack Version: 0.0.3a%n%Sanity Level: 33.2%
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 0
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = dfc76418-8070-4423-92ff-9cb7a5b8400c1693427973230
+  y = -32
+  alignment = left
+  height = 32
+}
+

@@ -1,0 +1,28 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "flag": "item_shelf",
+          "type": "supplementaries:flag"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "000"
+        ],
+        "key": {
+          "0": {
+            "item": "create_dd:rose_slab"
+          }
+        },
+        "result": {
+          "item": "suppsquared:create_dd/item_shelf_rose",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

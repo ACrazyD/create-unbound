@@ -18,13 +18,13 @@
   "overlay": {
     "overlayPosX": 0.5,
     "overlayPosY": 1.0,
-    "overlayScale": 1.0,
+    "overlayScale": 1.1,
     "overlayAnchorX": 0.5,
     "overlayAnchorY": 0.0,
-    "overlaySquare": false,
+    "overlaySquare": true,
     "flipMainHand": false,
     "autoScaleThreshold": 0.5,
-    "alpha": 0.7,
+    "alpha": 0.0,
     "themes": {
       "jade:waila": {
         "id": "jade:waila",
@@ -63,8 +63,8 @@
         "textShadow": true
       }
     },
-    "activeTheme": "jade:dark",
-    "iconMode": "TOP",
+    "activeTheme": "jade:top",
+    "iconMode": "CENTERED",
     "animation": true
   },
   "formatting": {

@@ -1,0 +1,28 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "flag": "item_shelf",
+          "type": "supplementaries:flag"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "000"
+        ],
+        "key": {
+          "0": {
+            "item": "silentgear:netherwood_slab"
+          }
+        },
+        "result": {
+          "item": "suppsquared:silentgear/item_shelf_netherwood",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

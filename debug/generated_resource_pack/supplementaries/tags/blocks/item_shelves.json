@@ -14,7 +14,9 @@
     "suppsquared:quark/item_shelf_azalea",
     "suppsquared:quark/item_shelf_ancient",
     "suppsquared:quark/item_shelf_blossom",
-    "suppsquared:enlightened_end/item_shelf_congealed",
+    "suppsquared:enlightened_end/item_shelf_indigo",
+    "suppsquared:enlightened_end/item_shelf_cerulean",
+    "suppsquared:silentgear/item_shelf_netherwood",
     "suppsquared:regions_unexplored/item_shelf_alpha",
     "suppsquared:regions_unexplored/item_shelf_baobab",
     "suppsquared:regions_unexplored/item_shelf_blackwood",
@@ -59,6 +61,9 @@
     "suppsquared:byg/item_shelf_witch_hazel",
     "suppsquared:byg/item_shelf_zelkova",
     "suppsquared:byg/item_shelf_sythian",
+    "suppsquared:ad_astra/item_shelf_aeronos",
+    "suppsquared:ad_astra/item_shelf_strophar",
+    "suppsquared:ad_astra/item_shelf_glacian",
     "supplementaries:item_shelf"
   ]
 }
